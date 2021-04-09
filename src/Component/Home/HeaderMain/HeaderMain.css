@@ -1,0 +1,15 @@
+.title {
+  color: #203047;
+  font-weight: 700;
+}
+
+.btn-color {
+  background: #17d2bd;
+  border: 0;
+  font-weight: 500;
+  padding: 12px;
+}
+
+.btn-color:hover {
+  background: #00fcde;
+}

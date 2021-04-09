@@ -1,0 +1,21 @@
+.single-info {
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.single-card {
+  height: 120px;
+  padding: 20px;
+}
+
+.info-primary {
+  background-color: #1cc7c1;
+}
+
+.info-dark {
+  background-color: #3a4256;
+}
+
+.info-icon {
+  font-size: 50px;
+}
