@@ -1,0 +1,9 @@
+.testimonial-card {
+  padding: 8px;
+}
+
+.testimonial-container {
+  box-shadow: 0px 2px 5px rgb(0 0 0 / 20%);
+  padding: 10px;
+  word-spacing: 5px;
+}

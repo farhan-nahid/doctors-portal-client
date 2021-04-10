@@ -4,6 +4,7 @@ import { Nav, Navbar } from 'react-bootstrap';
 const NavBar = () => {
     return (
         <Navbar expand="lg">
+            <Navbar.Brand href="#home"><strong>Doctor's Portal</strong></Navbar.Brand>
          <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ml-auto">
