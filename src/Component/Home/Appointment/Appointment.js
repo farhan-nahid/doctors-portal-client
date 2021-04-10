@@ -13,7 +13,7 @@ const Appointment = () => {
                 <Col md={6} className="pt-5 pb-5">
                     <h6  style={{color:"#17d2bd"}}>Appointment</h6>
                     <h1>Make An Appointment <br/> Today</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, sit, vitae praesentium commodi aliquid aspernatur </p>
+                    <p>It is a long established fact that a reader will be distracted by the redable content of the page when looking at its</p>
                     <Button  variant='info' className="btn-color mt-3">Learn More</Button>
                 </Col>
             </Row>

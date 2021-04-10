@@ -32,9 +32,9 @@ const testimonialData= [
 
 const Testimonial = () => {
     return (
-        <Container className="mt-5 pt-5">
+        <Container className="mt-5 pt-5 testimonial">
             <h6 style={{color:"#17d2bd"}}>Testimonial</h6>
-            <h1>What's Our Patients <br/> Says</h1>
+            <h1 className="title">What's Our Patients <br/> Says</h1>
                 <Row className="mt-5">
                     {
                         testimonialData.map(testimonial => <SingleTestimonial  key={testimonial.id} testimonial={testimonial}/>)

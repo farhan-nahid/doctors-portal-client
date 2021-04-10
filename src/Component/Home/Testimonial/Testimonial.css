@@ -1,0 +1,7 @@
+.testimonial {
+  background-image: url("../../../images/quote.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position: top right;
+  background-size: 250px;
+}
