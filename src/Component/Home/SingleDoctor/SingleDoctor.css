@@ -1,0 +1,14 @@
+.doctor-card {
+  padding: 8px;
+}
+
+.doctor-card :hover {
+  background-color: #f6f6f6;
+  cursor: pointer;
+}
+
+.doctor-container {
+  box-shadow: 0px 2px 5px rgb(0 0 0 / 20%);
+  padding: 10px;
+  word-spacing: 5px;
+}

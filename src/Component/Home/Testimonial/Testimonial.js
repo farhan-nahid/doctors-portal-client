@@ -33,7 +33,7 @@ const testimonialData= [
 const Testimonial = () => {
     return (
         <Container className="mt-5 pt-5 testimonial">
-            <h6 style={{color:"#17d2bd"}}>Testimonial</h6>
+            <h5 style={{color:"#17d2bd"}}>Testimonial</h5>
             <h1 className="title">What's Our Patients <br/> Says</h1>
                 <Row className="mt-5">
                     {

@@ -35,7 +35,7 @@ const blogData = [
 const Blog = () => {
     return (
         <Container className="mt-5 pt-5 ">
-            <h6 style={{color:"#17d2bd"}} className="text-center">Our Blog</h6>
+            <h5 style={{color:"#17d2bd"}}className="text-center">Our Blog</h5>
             <h1 className="text-center title">From Our Blog News</h1>
                 <Row className="mt-5">
                     {

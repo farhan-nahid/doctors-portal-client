@@ -1,0 +1,42 @@
+.footer-area {
+  background-image: url(../../../images/footer-bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.footer-area li {
+  padding-bottom: 10px;
+}
+
+.social-media .icon {
+  height: 40px;
+  width: 40px;
+  color: #1cc7c1;
+  border-radius: 50%;
+  border: 1px solid #6acece;
+  padding: 10px;
+}
+
+.social-media .icon:hover {
+  background-color: #6acece;
+  color: white;
+  transition: 0.8s;
+}
+
+.social-media .active-icon {
+  background-color: #6acece;
+  color: white;
+}
+
+.copyRight a {
+  text-decoration: none;
+  color: coral;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.copyRight a:hover {
+  color: green;
+  transition: 1.5s;
+}
