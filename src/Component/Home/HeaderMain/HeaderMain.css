@@ -4,13 +4,9 @@
 }
 
 .btn-color {
-  background: #17d2bd;
+  background-image: linear-gradient(75deg, #19d3ae, #0fcfec);
   border: 0;
   font-weight: 500;
   padding: 12px;
   width: 180px;
-}
-
-.btn-color:hover {
-  background: #00fcde;
 }

@@ -1,8 +1,8 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
+import NavBar from '../../SharedComponents/NavBar/NavBar';
 import BusinessInfo from '../BusinessInfo/BusinessInfo';
 import HeaderMain from '../HeaderMain/HeaderMain';
-import NavBar from '../NavBar/NavBar';
 import './Header.css';
 
 const Header = () => {

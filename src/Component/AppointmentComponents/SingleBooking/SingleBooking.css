@@ -1,0 +1,12 @@
+.booking-card {
+  padding: 8px;
+}
+
+.booking-card :hover {
+  background-color: #f6f6f6;
+  cursor: pointer;
+}
+
+.booking-container {
+  box-shadow: 0px 2px 5px rgb(0 0 0 / 20%);
+}

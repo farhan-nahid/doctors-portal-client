@@ -3,7 +3,9 @@ import {
   BrowserRouter as Router,
   Route, Switch
 } from "react-router-dom";
+import Appointment from "./Component/AppointmentComponents/Appointment/Appointment";
 import Home from "./Component/Home/Home/Home";
+import NotFound from "./Component/NotFound/NotFound";
 
 function App() {
   return (
@@ -12,8 +14,14 @@ function App() {
         <Route path="/home">
             <Home />
         </Route>
-        <Route path="/">
+        <Route path="/appointment">
+            <Appointment />
+        </Route>
+        <Route exact path="/">
             <Home />
+        </Route>
+        <Route path="*">
+            <NotFound />
         </Route>
       </Switch>
       

@@ -56,7 +56,7 @@ const Footer = () => {
                     </FooterCol>
                 </div>
                 <div className="copyRight text-center">
-                    <p>{(new Date()).getFullYear()} &copy; by <a  href="https://www.facebook.com/farhan.nahid.01" target="-blank">
+                    <p>{(new Date()).getFullYear()} &copy; by <a  href="//facebook.com/farhan.nahid.01" target="-blank">
                     Farhan Ahmed Nahid </a> . All Rights Reserved.</p>
                 </div>
             </div>
