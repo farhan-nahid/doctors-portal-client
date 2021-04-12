@@ -6,11 +6,11 @@ import './Appointment.css';
 const Appointment = () => {
     return (
         <Container className="mt-5 pt-5">
-            <Row className="text-white  appointment-container">
+            <Row className="appointment-container">
                 <Col md={6}>
                     <img className="img-fluid" src={doctor} alt=""/>
                 </Col>
-                <Col md={6} className="pt-5 pb-5">
+                <Col md={6} className="pt-5 pb-5 appointment">
                     <h5  style={{color:"#17d2bd"}}>Appointment</h5>
                     <h1>Make An Appointment <br/> Today</h1>
                     <p>It is a long established fact that a reader will be distracted by the redable content of the page when looking at its</p>

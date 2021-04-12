@@ -25,6 +25,10 @@
   top: 0;
 }
 
+.appointment {
+  z-index: 1;
+}
+
 .appointment-container img {
   height: 550px;
   width: 100%;
