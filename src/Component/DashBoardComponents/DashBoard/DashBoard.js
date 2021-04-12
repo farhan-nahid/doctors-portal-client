@@ -37,7 +37,7 @@ const DashBoard = () => {
                         value={new Date()}
                     />
                     </Col>
-                    <Col md={5}>
+                    <Col md={5} className="offset-md-1">
                     <AppointmentByDate appointment={appointment} />
                     </Col>
                 </Row>
