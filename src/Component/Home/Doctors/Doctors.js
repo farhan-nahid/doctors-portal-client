@@ -10,7 +10,7 @@ const Doctors = () => {
   
     
         useEffect(()=>{
-            fetch('http://localhost:5000/doctors',{
+            fetch('https://doctors-portal-farhan.herokuapp.com/doctors',{
                 headers:{
                   'Content-Type':'Application/json'
                 },

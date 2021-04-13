@@ -17,7 +17,7 @@ const SingleDoctor = ({doctor}) => {
             {
             doctor.image ? <img className="doctor-img"  src={`data:image/png;base64,${doctor.image.img}`}/>
             :
-            <img  className="img-fluid mb-3 doctor-img" src={`http://localhost:5000/${doctor.img}`} alt=""/>
+            <img  className="img-fluid mb-3 doctor-img" src={`https://doctors-portal-farhan.herokuapp.com/${doctor.img}`} alt=""/>
         }
                 
                 <h4 className="mt-3">{name}</h4>
