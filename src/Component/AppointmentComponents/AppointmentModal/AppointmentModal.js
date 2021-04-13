@@ -96,7 +96,7 @@ const AppointmentModal = ({subject, modalIsOpen, closeModal, selectedDate}) => {
             </Form.Group>
         </Form.Row>
 
-        <Button variant="info" className="float-right" type="submit"> Submit </Button>
+        <Button variant="info" className="float-right btn-color" type="submit"> Submit </Button>
         </Form>
 
         </Modal>

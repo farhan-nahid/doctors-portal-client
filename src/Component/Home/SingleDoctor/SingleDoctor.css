@@ -12,3 +12,9 @@
   padding: 10px;
   word-spacing: 5px;
 }
+
+.doctor-img {
+  height: 50vh;
+  width: 100%;
+  object-fit: cover;
+}

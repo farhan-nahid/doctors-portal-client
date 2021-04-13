@@ -10,12 +10,15 @@ const SingleDoctor = ({doctor}) => {
 
 
 
-    const { image, name, email} = doctor
-    console.log(image.img);
+    const {  name, email} = doctor
     return (
-        <Col md={4} className="doctor-card">
+        <Col md={4} sm={6} className="doctor-card">
             <Card  className="text-center doctor-container">
-                <img className="m-auto" style={{height:'250px', width:'250px'}} src={image.img} alt=""/>
+            {
+            doctor.image ? <img className="doctor-img"  src={`data:image/png;base64,${doctor.image.img}`}/>
+            :
+            <img  className="img-fluid mb-3 doctor-img" src={`http://localhost:5000/${doctor.img}`} alt=""/>
+        }
                 
                 <h4 className="mt-3">{name}</h4>
                     <div className="d-flex justify-content-center border-0">
